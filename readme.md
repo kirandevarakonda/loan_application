@@ -51,11 +51,8 @@ A simplified, scalable loan approval system that evaluates loan applications, ca
 ### Endpoints
 
 The service will be accessible at http://127.0.0.1:5000/.
-1.open Postman and paste address in POST method by this address which is the enpoint 
-    http://127.0.0.1:5000/loan-application
-    in Body select 'raw' and 'json' and paste the customer details
-    and post 
-    they will store in mongodb in loan_application_db
+1.open Postman and paste address in POST method by this address which is the enpoint http://127.0.0.1:5000/loan-application
+in Body select 'raw' and 'json' and paste the customer details and post they will store in mongodb in loan_application_db
 
 
 ### Start the RIsk Assessment Service
