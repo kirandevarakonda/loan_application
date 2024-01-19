@@ -67,5 +67,7 @@ The service will be accessible at http://127.0.0.1:5000/.
     http://127.0.0.1:5000/assess-risk/{loan_id}
 
 1.POST /assess-risk/{loan_id}: Assess the risk for a specific loan application.
+
 2.POST /approve-loan/{loan_id}: Approve or reject a loan application.
+
 3.GET /get-loan-status/{loan_id}: Retrieve the status of a loan application.
