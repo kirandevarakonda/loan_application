@@ -51,9 +51,24 @@ A simplified, scalable loan approval system that evaluates loan applications, ca
 ### Endpoints
 
 The service will be accessible at http://127.0.0.1:5000/.
+
 1.open Postman and paste address in POST method by this address which is the enpoint http://127.0.0.1:5000/loan-application
 in Body select 'raw' and 'json' and paste the customer details and post they will store in mongodb in loan_application_db
 
+*customer details Example :
+
+{
+  "applicant_name": "Joseph",
+  "credit_score": 750,
+  "loan_amount": 50000.0,
+  "loan_purpose": "Home Improvement",
+  "income": 75000.0,
+  "employment_status": "Employed"
+}
+
+it will store in mongodb as :
+
+{"_id":{"$oid":"65aa721bcdd2add14f37666a"},"applicant_name":"John Doe","credit_score":{"$numberInt":"500"},"loan_amount":{"$numberDouble":"50000.0"},"loan_purpose":"Home Improvement","income":{"$numberDouble":"75000.0"},"employment_status":"Employed","risk_score":{"$numberDouble":None},"approval_status":None}
 
 ### Start the RIsk Assessment Service
     ```bash```
