@@ -68,7 +68,10 @@ in Body select 'raw' and 'json' and paste the customer details and post they wil
 
 it will store in mongodb as :
 
-{"_id":{"$oid":"65aa721bcdd2add14f37666a"},"applicant_name":"John Doe","credit_score":{"$numberInt":"500"},"loan_amount":{"$numberDouble":"50000.0"},"loan_purpose":"Home Improvement","income":{"$numberDouble":"75000.0"},"employment_status":"Employed","risk_score":{"$numberDouble":None},"approval_status":None}
+{"_id":{"$object_id":"65aa721bcdd2add14f37666a"},"applicant_name":"John Doe","credit_score":{"$numberInt":"500"},"loan_amount":{"$numberDouble":"50000.0"},"loan_purpose":"Home Improvement","income":{"$numberDouble":"75000.0"},"employment_status":"Employed","risk_score":{"$numberDouble":None},"approval_status":None}
+
+Further for next operations we use Object_id, and we take that id in endpoints as shown below
+we taken as loan_id
 
 ### Start the RIsk Assessment Service
     ```bash```
