@@ -40,7 +40,7 @@ A simplified, scalable loan approval system that evaluates loan applications, ca
     ```bash
     pip install -r requirements.txt
 ### System_ARchitecture
-![Alt text](loan_app/system_architecture.png)
+![Alt text](https://github.com/kirandevarakonda/loan_app/blob/main/system_architecture.png)
 
 ### Running the Application
 *The application consists of three main components : Loan_application_service, risk_assessment_service and risk_approval
