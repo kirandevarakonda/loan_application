@@ -39,7 +39,7 @@ A simplified, scalable loan approval system that evaluates loan applications, ca
 ### Install dependencies
     ```bash
     pip install -r requirements.txt
-### System_ARchitecture
+### System_Architecture
 ![Alt text](https://github.com/kirandevarakonda/loan_app/blob/main/system_architecture.png)
 
 ### Running the Application
