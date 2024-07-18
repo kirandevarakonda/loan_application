@@ -7,7 +7,7 @@ from risk_assessment import RiskAssessment  # Import RiskAssessment class
 
 app = Flask(__name__)
 
-mongo_uri = "mongodb+srv://sriramkiran:12345@cluster0.osquyjl.mongodb.net/?retryWrites=true&w=majority"
+mongo_uri = "mongo_uri"
 client = MongoClient(mongo_uri)
 
 # Access the database
